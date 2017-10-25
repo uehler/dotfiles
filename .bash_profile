@@ -1,3 +1,5 @@
+[ -f ~/.bash_aliases ] && . ~/.bash_aliases
+
 # the fuck (https://github.com/nvbn/thefuck)
 eval "$(thefuck --alias)"
 
