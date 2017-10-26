@@ -1,6 +1,6 @@
 [user]
 	name = Uli Ehler
-	email = git@uli.io
+	email = uehler@conexco.com
 [core]
 	autocrlf = input
 [filter "lfs"]
