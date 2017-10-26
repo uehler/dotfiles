@@ -13,5 +13,5 @@ if [ -f /usr/local/etc/bash_completion ]; then
 
     # show status of a git repo
     GIT_PS1_SHOWDIRTYSTATE=true
-    PS1='\W\[\033[0;32m\]$(__git_ps1)\[\033[1;37m\]\$ '
+    PS1='\W\[\033[0;32m\]$(__git_ps1)\[\033[0m\]\$ '
 fi
