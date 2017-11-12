@@ -1,6 +1,9 @@
 [user]
 	name = Uli Ehler
 	email = git@uli.io
+	signingkey = 9C581893
+[commit]
+	gpgsign = true
 [core]
 	autocrlf = input
 [filter "lfs"]
