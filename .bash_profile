@@ -15,3 +15,5 @@ if [ -f /usr/local/etc/bash_completion ]; then
     GIT_PS1_SHOWDIRTYSTATE=true
     PS1='\W\[\033[0;32m\]$(__git_ps1)\[\033[0m\]\$ '
 fi
+
+export PATH="/usr/local/sbin:$PATH"
